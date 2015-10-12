@@ -14,16 +14,16 @@
 ActiveRecord::Schema.define(version: 20150807194122) do
 
   create_table "users", force: :cascade do |t|
-    t.string   "name"
-    t.string   "token"
-    t.string   "uid"
+    t.text   "name"
+    t.text   "token"
+    t.text   "uid"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "videos", force: :cascade do |t|
-    t.string   "link"
-    t.string   "title"
+    t.text   "link"
+    t.text   "title"
     t.datetime "published_at"
     t.integer  "likes"
     t.integer  "dislikes"
