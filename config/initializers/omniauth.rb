@@ -1,3 +1,3 @@
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :google_oauth2, '26140763044-rdf4inru08tc69r888boiqk0mrcd4khi.apps.googleusercontent.com', 'u-iYe9d-XURkvzVAu5Wq1TnB', scope: 'userinfo.profile,youtube'
+  provider :google_oauth2, '215754400870-emqquosno6ftr49hpakmfba5abdfn33n.apps.googleusercontent.com', 'Fi1kPiy_TADVpoOs98p7fXXx', scope: 'userinfo.profile,youtube'
 end
