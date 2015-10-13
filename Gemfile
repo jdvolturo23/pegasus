@@ -28,7 +28,7 @@ group :development, :test do
 end
 
 group :development do
-   #gem 'sqlite' -> comment out for now
+   gem 'sqlite3', '~> 1.3.10'
 end
 
 group :production do
